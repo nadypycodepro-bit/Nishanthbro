@@ -13,3 +13,5 @@ search = driver.find_element("name","q")
 search.send_keys("Iphone")
 search.submit()
 print("Successfully Launched")
+sleep(3)
+driver.close() # Used to close the browser
